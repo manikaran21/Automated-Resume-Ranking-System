@@ -1,0 +1,11 @@
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library 
+exec_prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library 
+libdir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/lib 
+includedir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -LC:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/lib -lxml2 -liconv -lz 
+Cflags: -IC:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/include/libxml 

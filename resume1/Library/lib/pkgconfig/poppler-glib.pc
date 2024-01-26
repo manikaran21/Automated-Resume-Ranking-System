@@ -1,0 +1,12 @@
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library
+libdir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/lib
+includedir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/include
+
+Name: poppler-glib
+Description: GLib wrapper for poppler
+Version: 22.12.0
+Requires: glib-2.0 >= 2.56 gobject-2.0 >= 2.56 cairo >= 1.10.0 
+Requires.private: poppler = 22.12.0
+
+Libs: -L${libdir} -lpoppler-glib
+Cflags: -I${includedir}/poppler/glib

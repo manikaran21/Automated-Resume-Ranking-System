@@ -1,0 +1,8 @@
+poppler_datadir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.12
+
+Cflags: -DPOPPLER_DATADIR=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/share/poppler
+

@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: The SSH library
+Version: 1.10.0
+Requires.private: libssl,libcrypto
+Libs: -L${libdir} -lssh2 -lcrypt32
+Libs.private: -lcrypt32
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1\Library
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: cairo-gobject
+Description: gobject functions for cairo
+Version: 1.16.0
+
+Requires: cairo gobject-2.0 glib-2.0
+Libs: -L${libdir} -lcairo-gobject
+Cflags: -I${includedir}/cairo

@@ -1,0 +1,16 @@
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/etc
+localstatedir=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.1
+Requires: freetype2 >=  21.0.15
+Libs: -L${libdir} -lfontconfig
+Libs.private: C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library/lib/expat.lib
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Version: 2.69.1
+Requires: glib-2.0
+Libs: -L${libdir} -lgmodule-2.0
+Libs.private: -L${libdir} -lintl
+Cflags: -I${includedir}

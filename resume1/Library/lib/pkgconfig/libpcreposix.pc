@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=C:/Users/MANIKARAN/LangChain/My_Resume/resume1/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcreposix
+Description: PCREPosix - Posix compatible interface to libpcre
+Version: 8.45
+Libs: -L${libdir} -lpcreposix
+Cflags: -I${includedir} 
+Requires.private: libpcre
